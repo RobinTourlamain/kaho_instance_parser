@@ -1,0 +1,11 @@
+[package]
+name = "kaho_instance_parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.198", features = ["derive"] }
+chrono = "0.4.38"
+quick-xml = { version = "0.31.0", features = ["serialize"] }
